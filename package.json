@@ -2,7 +2,7 @@
   "name": "javascript-library-template",
   "version": "0.0.0-development",
   "private": false,
-  "description": "JavaScript library template bundled with the right tooling, read more at https://github.com/vvo/javascript-library-template",
+  "description": "JavaScript library template to focus on ⌨️ coding, 🙌 collaborating and 🚀 shipping",
   "repository": {
     "type": "git",
     "url": "https://github.com/vvo/javascript-library-template.git"
