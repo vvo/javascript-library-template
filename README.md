@@ -1,13 +1,11 @@
 # javascript-library-template [![GitHub license](https://img.shields.io/github/license/vvo/javascript-library-template?style=flat)](https://github.com/vvo/javascript-library-template/blob/master/LICENSE) ![Tests](https://github.com/vvo/javascript-library-template/workflows/CI/badge.svg) [![codecov](https://codecov.io/gh/vvo/javascript-library-template/branch/master/graph/badge.svg)](https://codecov.io/gh/vvo/javascript-library-template) ![npm](https://img.shields.io/npm/v/javascript-library-template)
 
-<center>
-
-<small>**Click below to create a new GitHub repository using this template:**</small>
-
-<a href="https://github.com/vvo/javascript-library-template/generate">
+<p align="center">
+<small><b>Click below to create a new GitHub repository using this template:</b></small>
+<br/><br/><a href="https://github.com/vvo/javascript-library-template/generate">
 <img src="https://img.shields.io/badge/use%20this-template-blue?logo=github">
 </a>
-</center>
+</p>
 
 ---
 
