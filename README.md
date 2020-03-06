@@ -1,6 +1,8 @@
-# javascript-library-template [![GitHub license](https://img.shields.io/github/license/vvo/javascript-library-template?style=flat)](https://github.com/vvo/javascript-library-template/blob/master/LICENSE) ![Tests](https://github.com/vvo/javascript-library-template/workflows/Tests/badge.svg) [![codecov](https://codecov.io/gh/vvo/javascript-library-template/branch/master/graph/badge.svg)](https://codecov.io/gh/vvo/javascript-library-template) ![npm](https://img.shields.io/npm/v/javascript-library-template)
+# javascript-library-template [![GitHub license](https://img.shields.io/github/license/vvo/javascript-library-template?style=flat)](https://github.com/vvo/javascript-library-template/blob/master/LICENSE) ![Tests](https://github.com/vvo/javascript-library-template/workflows/CI/badge.svg) [![codecov](https://codecov.io/gh/vvo/javascript-library-template/branch/master/graph/badge.svg)](https://codecov.io/gh/vvo/javascript-library-template) ![npm](https://img.shields.io/npm/v/javascript-library-template)
 
-**This JavaScript library template** allows you to easily develop, test and publish a JavaScript library with all the modern tooling you'd expect from the JavaScript ecosystem.
+**This JavaScript library template** allows you to easily develop, collaborate on and publish a JavaScript library with all the modern tooling you'd expect from the current JavaScript ecosystem.
+
+**Why should you use this?** One of the hidden challenges of authoring opensource JavaScript libraries is to provide a library that is easy to contribute to. You want people to join your project. Doing so requires a good amount of boilerplate: testing, code coverage, dependencies maintenance, release scripts, tooling requirements (Node.js, Yarn and which versions are we using again?), code editor configuration, formatting, linting... Well, this is the goal of this template: **to provide sensible and modern defaults to all those subjects**. So that once set up, you can focus on ⌨️ coding, 🙌 collaborating and 🚀 shipping.
 
 **The goals of the template are to:**
 
@@ -60,5 +62,7 @@ The template is still pretty new (March 2020) and was done to author JavaScript 
 - `.github` Pull requests template, issues templates, CONTRIBUTING files
 - add or change scripts to allow for auto-formatting
 - provide documentation on how to protect branches on GitHub
+- provide scripts to easily open a pull request once a branch is created
+- provide a way to check for semantic commits in PR
 
 If you'd like to participate, if you have bugs or new ideas, [open an issue](issues/new) or a pull request.
