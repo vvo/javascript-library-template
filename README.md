@@ -32,7 +32,7 @@ Using this template requires a bit of setup, but way less than if you had to sta
 1. [Setup renovate](https://github.com/apps/renovate) for your new repository. If you previously installed the Renovate application to your account then this is just a box to tick when creating the repository
 1. [Clone the new repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 1. Change the package name and description in `package.json`
-1. [Sign up or log in to Codecov](https://codecov.io/) and add the new repository
+1. [Setup Codecov](https://github.com/apps/codecov) for your new repository. If you previously installed the Codecov application to your account then this is just a box to tick when creating the repository
 1. Setup semantic releases: run `yarn semantic-release-cli setup` in a terminal (This will ask for your npm and GitHub credentials)
 1. Add the previously generated `GH_TOKEN` and `NPM_TOKEN` secrets to the [GitHub secrets](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets) of the new repository
 1. Install dependencies: run `yarn` in your terminal
@@ -59,5 +59,6 @@ The template is still pretty new (March 2020) and was done to author JavaScript 
 - `create-javascript-library` command line that would get most of the setup done easily
 - `.github` Pull requests template, issues templates, CONTRIBUTING files
 - add or change scripts to allow for auto-formatting
+- provide documentation on how to protect branches on GitHub
 
 If you'd like to participate, if you have bugs or new ideas, [open an issue](issues/new) or a pull request.
