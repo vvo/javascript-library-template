@@ -15,7 +15,7 @@
     "LICENSE",
     "README.md"
   ],
-  "main": "index.dist.js",
+  "main": "dist/",
   "scripts": {
     "build": "babel lib/ -d dist/ --source-maps --ignore '**/*.test.js' --delete-dir-on-start",
     "check-formatting": "prettier --check './**/*.?(json|js|md|css)' && eslint .",
