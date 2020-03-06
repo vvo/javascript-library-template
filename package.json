@@ -5,22 +5,23 @@
   "description": "JavaScript library template bundled with the right tooling, read more at https://github.com/vvo/javascript-library-template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vvo/javascript-library-template.gif"
+    "url": "https://github.com/vvo/javascript-library-template.git"
   },
   "license": "MIT",
   "author": "Vincent Voyer <vincent@codeagain.com>",
   "files": [
-    "index.dist.js",
-    "index.dist.js.map",
+    "dist/",
+    "lib/",
     "LICENSE",
     "README.md"
   ],
   "main": "index.dist.js",
   "scripts": {
-    "build": "babel index.js -o index.dist.js --source-maps",
+    "build": "babel lib/ -d dist/ --source-maps --ignore '**/*.test.js' --delete-dir-on-start",
+    "check-formatting": "prettier --check './**/*.?(json|js|md|css)' && eslint .",
     "prepublishOnly": "yarn build",
     "semantic-release": "semantic-release",
-    "test": "jest --coverage && prettier --check './**/*.?(json|js|md|css)' && eslint ."
+    "test": "jest --coverage && yarn check-formatting"
   },
   "babel": {
     "presets": [
@@ -65,7 +66,8 @@
     "jest-date-mock": "1.0.8",
     "prettier": "1.19.1",
     "prettier-plugin-packagejson": "2.0.10",
-    "semantic-release": "17.0.4"
+    "semantic-release": "^17.0.4",
+    "semantic-release-cli": "^5.2.3"
   },
   "renovate": {
     "extends": [
