@@ -74,5 +74,6 @@ The template is still pretty new (March 2020) and was done to author JavaScript 
 - provide scripts to easily open a pull request once a branch is created
 - provide a way to check for semantic commits in PR
 - contributors list
+- https://github.com/apps/semantic-pull-requests
 
 If you'd like to participate, if you have bugs or new ideas, [open an issue](https://github.com/vvo/javascript-library-template/issues/new) or a pull request.
