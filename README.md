@@ -77,3 +77,17 @@ The template is still pretty new (March 2020) and was done to author JavaScript 
 - https://github.com/apps/semantic-pull-requests
 
 If you'd like to participate, if you have bugs or new ideas, [open an issue](https://github.com/vvo/javascript-library-template/issues/new) or a pull request.
+
+## Recipes
+
+### Using `yarn link`
+
+To use `yarn link` efficiently, do this:
+
+```bash
+> cd my-library
+> yarn link
+> yarn build --watch
+> cd ../my-other-library
+> yarn link my-library
+```
