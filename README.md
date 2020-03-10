@@ -91,3 +91,9 @@ To use `yarn link` efficiently, do this:
 > cd ../my-other-library
 > yarn link my-library
 ```
+
+### Reformating all code
+
+```bash
+yarn format
+```

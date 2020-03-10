@@ -1,4 +1,13 @@
-/.yarn/
-/.vscode/
-/dist/
+*.*
+!*.css
+!*.js
+!*.json
+!*.jsx
+!*.less
+!*.md
+!*.mdx
+!*.ts
+!*.tsx
+!*.yml
 /coverage/
+/dist/
