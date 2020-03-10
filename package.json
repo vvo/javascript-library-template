@@ -18,6 +18,7 @@
   "main": "dist/",
   "scripts": {
     "build": "babel lib/ -d dist/ --source-maps --ignore '**/*.test.js' --delete-dir-on-start",
+    "build:watch": "yarn build --watch",
     "check-formatting": "prettier --check './**/*.?(json|js|md|css)' && eslint .",
     "prepublishOnly": "yarn build",
     "semantic-release": "semantic-release",
