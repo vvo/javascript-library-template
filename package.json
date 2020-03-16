@@ -37,7 +37,8 @@
     ]
   },
   "prettier": {
-    "arrowParens": "always"
+    "arrowParens": "always",
+    "trailingComma": "all"
   },
   "eslintConfig": {
     "env": {
