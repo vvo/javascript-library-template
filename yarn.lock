@@ -8200,10 +8200,10 @@ saxes@^5.0.0:
   dependencies:
     xmlchars "^2.2.0"
 
-semantic-release-cli@5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/semantic-release-cli/-/semantic-release-cli-5.3.0.tgz#05d74c5f91304e59e5cf04be9729700c6c18c084"
-  integrity sha512-V6oUZH+VW8edVaife8v+4xhj0sBQL6ecrwLePF6eciRZSyCvaef6+KPxYX2V/CCdCHSSpZaPdHmJhCTjOnKsuw==
+semantic-release-cli@5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/semantic-release-cli/-/semantic-release-cli-5.3.1.tgz#65bb7f28591031ae4152fa0b0d4b667b20c0ba8c"
+  integrity sha512-ez+/C8optoqIi7U8s6SVVVttQ1AunMt8VSY2CW9Zm9jddd9rQdiLwHMRO2APDsR4QV8I86tNo56+XssCSfWmpQ==
   dependencies:
     babel-polyfill "^6.26.0"
     babel-preset-env "^1.6.1"
