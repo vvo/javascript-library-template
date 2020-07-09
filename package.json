@@ -9,7 +9,9 @@
   },
   "license": "MIT",
   "author": "Vincent Voyer <vincent@codeagain.com>",
+  "sideEffects": false,
   "main": "dist/",
+  "module": "lib/",
   "files": [
     "dist/",
     "lib/",
