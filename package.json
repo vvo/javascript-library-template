@@ -77,7 +77,7 @@
     "@babel/cli": "7.12.17",
     "@babel/core": "7.12.17",
     "@babel/preset-env": "7.12.17",
-    "@types/jest": "26.0.23",
+    "@types/jest": "26.0.24",
     "babel-eslint": "10.1.0",
     "babel-jest": "26.5.2",
     "eslint": "7.30.0",
